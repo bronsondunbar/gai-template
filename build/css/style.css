@@ -8933,8 +8933,17 @@ body {
 
 .default-header {
   min-height: 50vh; }
-  .default-header h1, .default-header h2, .default-header h3, .default-header h4, .default-header h5, .default-header h6 {
+  .default-header h1, .default-header h2, .default-header h3, .default-header h4, .default-header h5, .default-header h6, .default-header p, .default-header ul {
     color: #fff; }
+  .default-header .uk-flex div:first-child p {
+    -webkit-writing-mode: sideways-lr;
+        -ms-writing-mode: sideways-lr;
+            writing-mode: sideways-lr;
+    text-orientation: mixed; }
+  .default-header .uk-flex div:first-child ul {
+    list-style-type: none;
+    padding: 0 0 0 5px;
+    margin: 0; }
 
 .default-content {
   position: relative;

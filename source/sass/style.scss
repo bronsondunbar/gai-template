@@ -12,9 +12,36 @@ body {
 
 	min-height: 50vh;
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, p, ul {
 
 		color: $global-background;
+
+	}
+
+	.uk-flex {
+
+		div {
+
+			&:first-child {
+
+				p {
+
+					writing-mode: sideways-lr;
+					text-orientation: mixed;
+
+				}
+
+				ul {
+
+					list-style-type: none;
+					padding: 0 0 0 5px;
+					margin: 0;
+
+				}
+
+			}
+
+		}
 
 	}
 

@@ -38,13 +38,49 @@
   </head>
 
   <body>
+    <nav class="uk-navbar-container uk-light uk-navbar-transparent" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a class="uk-navbar-item uk-logo" href="#">Gai template</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="#">Active</a></li>
+          <li>
+            <a href="#">Parent</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Item</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="uk-container uk-padding default-header">
       <div class="uk-flex uk-flex-middle">
-        <div>
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+        <div class="uk-flex-bottom uk-padding">
+          <p>&copy; Bronson Dunbar</p>
+
+          <ul>
+            <li>
+              <i class="fab fa-facebook-square"></i>
+            </li>
+            <li>
+              <i class="fab fa-facebook-square"></i>
+            </li>
+          </ul>
         </div>
 
-        <div>
+        <div class="uk-padding">
           <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
         </div>
       </div>
@@ -62,6 +98,7 @@
       <p>Quisque bibendum malesuada arcu, at molestie nibh hendrerit non. Nam tortor ligula, pretium vitae tortor non, sodales ullamcorper velit. Suspendisse in condimentum neque. Fusce facilisis dui mi, ut efficitur arcu lacinia vel. Fusce molestie diam a venenatis euismod. Vestibulum non bibendum nisl, vel consectetur magna. Sed et tellus vel ex consectetur mattis sit amet sed nisl. Fusce bibendum luctus tristique. Vivamus eget urna nisi. Nunc pretium tellus sed leo venenatis, vel sagittis purus rhoncus. Integer eleifend ac enim a rhoncus. Vestibulum suscipit ac risus nec pellentesque. Morbi eget metus vel est auctor consectetur. Proin vel nibh molestie, tincidunt magna vitae, ultricies leo. Pellentesque vulputate nulla quis mauris volutpat interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
     </div>
 
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
